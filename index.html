@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<!--fonts-->
+		<!-- <link href='http://fonts.useso.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'> -->
+		<!-- <link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'> -->
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav-->
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png" alt=""/></a>
+			</div>
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>首页</span></a></li>
+										<li><a class="scroll" href="#about"><span>关于</span></a></li>
+										<li><a class="scroll" href="#services"><span>工作</span></a></li>
+										<li><a class="scroll" href="#portfolio"><span>作品</span></a></li>
+										<li><a class="scroll" href="#contact"><span>联系我</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!---start-click-drop-down-menu-->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!-//End-click-drop-down-menu-->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+				<img src="img/lws.jpg" alt=""/>
+			</div>
+			<div class="banner-right">
+				<h1>刘汪善：WEB前端</h1>
+				<div class="border"></div>
+				<h2>千里之行，始于足下</h2>
+				<a href="#">个人简历</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>关于我</h3>
+		<div class="strip text-center"><img src="img/about.png" alt=" "/></div>
+		<p>在年轻的季节我甘愿吃苦受累，只愿通过自己富有激情、积极主动的努力实现自身价值并在工作中做出最大的贡献： 作为初学者，我具备出色的学习能力并且乐于学习、敢于创新，不断追求卓越; 作为参与者，我具备诚实可信的品格、富有团队合作精神;作为开发者，我具备做事干练、迎难而上，不断进取，良好的沟通和人际协调能力。受过系统的web前端相关专业知识训练，有很强的忍耐力、意志力和吃苦耐劳的品质，对工作认真负责，积极进取，个性乐观执着，敢于面对困难与挑战。</p>
+		<ul>
+			<li><a class="fb" href="#"></a></li>
+			<li><a class="twit" href="#"></a></li>
+			<li><a class="in" href="#"></a></li>
+			<li><a class="drib" href="#"></a></li>
+			<li><a class="goog" href="#"></a></li>
+			<li><a class="pin" href="#"></a></li>
+		</ul>
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
+<!--my skill-->
+<div class="my-skills text-center">
+	<div class="container">
+		<h3>个人技能</h3>
+		<div class="strip text-center"><img src="img/skill.png" alt=" "/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>Photoshop</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>BOOTSTRAP</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>VUE</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>OFFER</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>JQUERY</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>Html 5 / CSS 3</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+									];
+								for (var i = 1; i <= 7; i++) {
+									var child = document.getElementById('circles-' + i);
+									var num=Math.floor(Math.random()*80)+65;
+									if (num<100) {
+
+										percentage =num;
+									}else{percentage =70;}
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+		</div>
+	</div>	
+</div>
+<!--//my skill-->
+<div class="my-skill-back"></div>
+<!--education-->
+<div class="education text-center">
+	<div class="container">
+		<div class="edu-info">
+			<h3>教育背景</h3>
+		</div>
+		<div class="strip text-center"><img src="img/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+			<div class="col-md-12 edu-grid">
+				<p>2013 - 2017</p><span>毕业于</span>
+				<img src="img/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>大学本科</h3>
+						<h4>江西科技师范大学</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>在校期间，曾经担任过江西科技师范大学通信与电子学院学生会记者部干事 ，任期一年，部门6人，主要为学院大型活动以及重要讲座记录拍照并撰稿后上传学校官网。并且为学院拍摄创意宣传视频。在校获得证书为英语四级证书、计算机三级维修证，获得荣誉为院三等奖学金、优秀学生干部</h5>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+</div>
+<!--//education-->
+<div class="strip-border"><p></p></div>
+<!--work-->
+<div class="work-experience text-center">
+	
+	<div class="container">
+		<div class="work-info">
+			<h3>工作经验</h3>
+		</div>
+		<div class="strip text-center"><img src="img/work.png" alt=" "/></div>
+		<div class="work-grids">
+			<div class="col-xs-12 w-grid">
+				<div class="work-grid">
+					<h3>2016.9 - 2017.9</h3>
+					<div class="work-grid-info">
+						<h4>江西联创有限公司</h4>
+						<h5>前端开发</h5>
+						<p>负责公司网站界面维护以及优化，对网站内容进行更新以及调整<br>根据设计稿还原界面，重构基本页面以及页面交互效果，公司前端框架开发，包括PC端和移动端。</p>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//work-->
+<div class="services-back"></div>
+
+<!--services-->
+<div class="services text-center" id="services">
+	<div class="container">
+		<div class="ser-info">
+			<h3>工作内容</h3>
+		</div>
+		<div class="strip text-center"><img src="img/ser.png" alt=" "/></div>
+		<div class="ser-grids">
+			<div class="col-md-6 ser-grid">
+				<div class="ser-imagea"></div>
+				<h3>页面重构</h3>
+				<p>根据设计稿快速还原界面，公司前端框架开发，包括PC端和移动端。</p>
+			</div>
+			<div class="col-md-6 ser-grid">
+				<div class="ser-imageb"></div>
+				<h3>动态交互</h3>
+				<p>ajax数据交互，页面动态交互，并且兼容各主流浏览器。单页面应用开发，响应式应用开发。</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//services-->
+<!--portfolio-->
+<div class="gallery-section text-center" id="portfolio">
+	<div class="container">
+		<h3>个人作品</h3>
+		<div class="strip text-center"><img src="img/port.png" alt=" "/></div>
+		<p>前端开发当中，熟悉PS、Sublime、office等软件操作，掌握各种前端技能，支持W3C规范的前台网页重构，对DIV+CSS盒子模型布局有深刻的理解；熟悉掌握JavaScript中Dom编程基本原理，以及面向对象编程思想。熟悉并掌握前端框架Bootstrap、JQuery、zepto、vue.js,能使用swiper以及各种UI插件。熟悉HTML5语义化标签编程和CSS3结构选择器和动画并加以使用。</p>
+		<div class="gallery-grids">
+			<div class="top-gallery">
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="img/higou.png" class="swipebox"><img src="img/higou.png" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>嗨购商城</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="img/higou.png" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="img/douban.png" class="swipebox"><img src="img/douban.png" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>豆瓣电影</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="img/douban.png" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="img/h5.png" class="swipebox"><img src="img/h5.png" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>H5小游戏</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="img/h5.png" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="img/people.png" class="swipebox"><img src="img/people.png" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>个人页面</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="img/people.png" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="clearfix"> </div>
+			</div>
+				<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+		</div>
+	</div>
+</div>
+<!--//portfolio-->
+<!--process-->
+<div class="process text-center">
+	<div class="container">
+		<h3>开发流程</h3>
+		<div class="strip text-center"><img src="img/pro.png" alt=" "/></div>
+		<div class="process-girds">
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagea"></div>
+					<p>概念</p>
+					<img src="img/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imageb"></div>
+					<p>方案</p>
+					<img class="pro-imga" src="img/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagec"></div>
+					<p>设计</p>
+					<img class="pro-img" src="img/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imaged"></div>
+					<p>代码开发</p>
+					<img class="pro-imgb" src="img/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagee"></div>
+					<p>测试</p>
+					<img src="img/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagef"></div>
+					<p>上线</p>
+					
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+<!--contact-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTACT</h3>
+			<div class="strip text-center"><img src="img/con1.png" alt=" "/></div>
+		</div>
+		<div class="contact-grids">
+			<div class="col-md-5 contact-left">
+				<h3>欢迎打扰</h3>
+				<div class="stripb"></div>
+				<ul>
+					<li>Orchard Park, Long Bennington, </li>
+					<li>深圳 龙华新区</li>
+					<li>水斗</li>
+					<li>18270895842</li>
+					<li><a href="mailto:info@example.com">935614816@qq.com</a></li>
+					<li><a href="#">www.lws.cn</a></li>
+				</ul>
+			</div>
+			<div class="col-md-7 contact-right">
+				<h3>给我留言</h3>
+				<div class="stripb"></div>
+				<form>
+					<input type="text" value="Name" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="text" value="E-mail" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'E-mail';}" required="">
+					<textarea type="text" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+					<input type="submit" value="SEND">
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//contact-->
+<div class="footer-top"></div>
+<!--resume-->
+<div class="resume text-center">
+	<div class="container">
+		<div class="strip text-center"><a href="#"><img src="img/down.png" alt=" "/></a></div>
+		<div class="down"><a href="#">Download My Resume</a></div>
+<!-- 500*48 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:100%;height:90px"
+     data-ad-client="ca-pub-1429309183504547"
+     data-ad-slot="3657559714"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	</div>
+</div>
+<!--//resume-->
+
+<!--footer-->
+<div class="footer">
+	<div class="container">
+	<style type="text/css">#blogownner {color: #222121;font-size:16px;font-weight:bold;}</style>
+<a id="blogownner">个人网页：</a>
+<a id="blogownner">刘汪善</a>
+<a id="blogownner">落雨</a>
+<a id="blogownner">TAIDUPA</a>
+<a id="blogownner">SWAG</a></td>
+<a id="blogownner">GENTLEWOMAN</a>
+<a id="blogownner">时尚达人</a>
+<a id="blogownner">ITALY_ILARIA</a>
+<a id="blogownner">GABRIELE</a>
+<a id="blogownner">Gabriele</a>
+<a id="blogownner">Melissa</a>
+<a id="blogownner">Ilaria</a>
+<a id="blogownner">PMP</a>
+		        <p>2016 © <a href="" >TAIDUPA SHOP</a> ALL RIGHTS RESERVED <a href="" title="网站备案查询" ref="nofollow">京ICP备15048447号-1</a> | PROFESSIONAL <a href="">SERVICE</a>. DESIGNED BY <a href="mailto:support@taidupa.com">liuwanhshan</a> <a class="text-title" href=""title="免责条款">免责条款 </a></p>
+	</div>
+</div>
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
